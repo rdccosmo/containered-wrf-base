@@ -3,7 +3,7 @@ MAINTAINER Rodrigo Cosme <rdccosmo@gmail.com>
 
 RUN apt-get update -y && \
     apt-get install -y \
-    gfortran gfortran-4.6-multilib csh build-essential libcloog-ppl1 m4 wget ncl-ncarg 
+    gfortran gfortran-5-multilib csh build-essential libcloog-ppl1 m4 wget ncl-ncarg 
 
 RUN mkdir /home/wrf && \
     useradd wrf -d /home/wrf && \
